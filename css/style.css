@@ -446,10 +446,10 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    position: relative; /* تفعيل النسبية للخلفية */
-    background-color: rgba(0, 0, 0, 0.849); /* خلفية سوداء شفافة */
+    position: relative; 
+    background-color: rgba(0, 0, 0, 0.849); 
     color: #fff;
-    min-height: 20vh; /* ارتفاع النافذة 20% */
+    min-height: 20vh; 
     padding: 40px 20px;
     }
     
@@ -462,12 +462,12 @@ body{
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url('../images/cert.jpg'); /* صورة الخلفية */
+    background-image: url('../images/cert.jpg'); 
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    opacity: 0.5; /* شفافية الصورة الخلفية */
-    z-index: -1; /* تحت النص */
+    opacity: 0.5; 
+    z-index: -1; 
 }
 
 .communicate h3 {
@@ -491,8 +491,8 @@ body{
     height: 3.5rem;
     width: 15rem;
     box-shadow: 0 .2rem .5rem rgba(0, 0, 0, .3);
-    position: relative; /* تفعيل النسبية للزر نفسه */
-    z-index: 1; /* فوق النص */
+    position: relative; 
+    z-index: 1; 
 }
 
 .communicate .btn:hover {
@@ -861,8 +861,8 @@ body{
             position: relative;
             padding: 0 0 20px 0;
             background: #333;
-            margin-top: 50px; /* تعديل الهامش السفلي كما ترغب */
-            margin-bottom: 0px; /* تعديل الهامش السفلي كما ترغب */
+            margin-top: 50px; 
+            margin-bottom: 0px; 
 
         }
         
@@ -1379,28 +1379,28 @@ body{
 
         .image-links {
             display: flex;
-            justify-content: center; /* محاذاة العناصر في الوسط */
-            gap: 10px; /* المسافة بين الصور */
-            flex-wrap: nowrap; /* منع لف العناصر إلى الصف التالي */
+            justify-content: center; 
+            gap: 10px; 
+            flex-wrap: nowrap; 
         }
         
         .image-links a {
-            text-decoration: none; /* إزالة التزيين للروابط */
-            color: #333; /* لون النص للروابط إذا لزم الأمر */
-            display: block; /* جعل الروابط عناصر مستقلة */
-            width: auto; /* السماح للعرض بالتكيف مع الصورة */
-            box-sizing: border-box; /* لضمان أن الحدود والحشو لا تؤثر على حساب العرض */
+            text-decoration: none; 
+            color: #333; 
+            display: block; 
+            width: auto; 
+            box-sizing: border-box; 
         }
         
         .image-links img {
-            width: 100px; /* عرض الصورة. يمكنك تغيير هذا بناءً على الحجم المرغوب */
-            height: auto; /* الحفاظ على نسبة العرض إلى الارتفاع */
-            border: 1px solid #ccc; /* إضافة حدود للصور إذا لزم الأمر */
-            transition: transform 0.3s ease; /* تأثير عند التحويل */
+            width: 100px; 
+            height: auto; 
+            border: 1px solid #ccc; 
+            transition: transform 0.3s ease; 
         }
         
         .image-links img:hover {
-            transform: scale(1.1); /* تكبير الصورة عند التحويل */
+            transform: scale(1.1); 
         }
         
 
